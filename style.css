@@ -233,6 +233,11 @@ section .header{
     border-color: #fff;
 }
 
+.features .card .icon{
+    width: 35px;
+    clip-path: none;
+}
+
 .features .card span{
     display: inline-block;
     background-color: #1e40af;
@@ -280,6 +285,10 @@ section .header{
     font-size: 20px
 }
 
+.ri-file-copy-line{
+    font-size: 25px
+}
+
 .pricing{
     margin-top: 4rem;
     display: grid;
@@ -305,6 +314,10 @@ section .header{
 .pricing .card .content{
     flex: 1;
     margin-bottom: 2rem;
+}
+
+.pricing .card .content img{
+    clip-path: none;
 }
 
 .pricing .card h4{
