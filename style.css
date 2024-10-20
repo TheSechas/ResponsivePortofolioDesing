@@ -181,6 +181,28 @@ header .image img{
     margin: auto;
 }
 
+header .content  .socials{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 15px;
+}
+
+header .content  .socials a{
+    color: #ccc;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 1.25rem;
+    border-radius: 100%;
+    transition: all 0.3s ease;
+}
+
+header .content .socials a:hover{
+    color: #fff;
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
 section .header{
     margin-bottom: 1rem;
     color: #fff;
@@ -349,6 +371,7 @@ footer .column .socials{
     display: flex;
     align-items: center;
     gap: 1rem;
+    margin-top: 5px;
 }
 
 footer .column .socials a{
