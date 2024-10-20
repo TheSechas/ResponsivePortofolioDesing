@@ -24,3 +24,13 @@ link2.addEventListener('click', () => {
 link3.addEventListener('click', () => {
     scrollToElement('.column');
 });
+
+// Botón para copiar al portapapeles
+const copyBtn = document.getElementById("copyBtn");
+const email = document.getElementById("email").textContent;
+
+copyBtn.addEventListener("click", () => {
+    navigator.clipboard.writeText(email).catch(err => {
+        console.error('Error al copiar el texto: ', err);
+    });
+});
