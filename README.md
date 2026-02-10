@@ -1,2 +1,2 @@
 # ResponsivePortofolioDesing
-Responsive Portofolio Desing para mi web www.thesechas.com
+Responsive Portofolio Desing sobre mi
